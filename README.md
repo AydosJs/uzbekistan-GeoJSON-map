@@ -1,6 +1,6 @@
 <div>
-  <img width="250px" height="220px" src="https://telegra.ph/file/662635bf2d77e447e7858.png">
-  <img width="250px" height="220px" src="https://telegra.ph/file/112771516a74a4060d0b5.png">
+  <img width="400px" height="220px" src="https://telegra.ph/file/662635bf2d77e447e7858.png">
+  <img width="400px" height="220px" src="https://telegra.ph/file/112771516a74a4060d0b5.png">
 </div>
 
 <h1>GeoJSON - Data Visualization of Uzbekistan</h1>
