@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <base target="_top" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Uzbekistan</title>
+
+
+  <!-- <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" /> -->
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+    }
+
+    .leaflet-container {
+      height: 400px;
+      width: 600px;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  </style>
+
+  <style>
+    .info {
+      padding: 6px 8px;
+      font: 14px/16px Arial, Helvetica, sans-serif;
+      background: white;
+      background: rgba(255, 255, 255, 0.8);
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+    }
+
+    .info h4 {
+      margin: 0 0 5px;
+      color: #777;
+    }
+
+    .legend {
+      text-align: left;
+      line-height: 18px;
+      color: #555;
+    }
+
+    .legend i {
+      width: 18px;
+      height: 18px;
+      float: left;
+      margin-right: 8px;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="w-full">
+    <div class="p-4 overflow-hidden  w-full h-[540px] sm:h-[600px]">
+      <div id="map" class="w-full h-full border-2 border-gray-100 rounded"></div>
+    </div>
+    <div class="mt-10 flex items-center justify-center w-full">
+      <button id="back-to-regions" class="bg-gray-100 hover:bg-gray-200 p-2 rounded border-2 font-medium">Back to
+        Regions</button>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="data/regions.js"></script>
+  <script type="text/javascript" src="data/qoraqalpogiston.js"></script>
+  <script type="text/javascript" src="data/andijon.js"></script>
+  <script type="text/javascript" src="data/buxoro.js"></script>
+  <script type="text/javascript" src="data/fargona.js"></script>
+  <script type="text/javascript" src="data/jizzax.js"></script>
+  <script type="text/javascript" src="data/namangan.js"></script>
+  <script type="text/javascript" src="data/navoiy.js"></script>
+  <script type="text/javascript" src="data/qashqadaryo.js"></script>
+  <script type="text/javascript" src="data/samarqand.js"></script>
+  <script type="text/javascript" src="data/sirdaryo.js"></script>
+  <script type="text/javascript" src="data/surxondaryo.js"></script>
+  <script type="text/javascript" src="data/toshkent.js"></script>
+  <script type="text/javascript" src="data/xorazm.js"></script>
+  <script type="text/javascript" src="data/reg.js"></script>
+
+  <script src="data.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
